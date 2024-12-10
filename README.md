@@ -10,7 +10,7 @@ paper address:https://github.com/YF-W/CFCM-Net
 
 ### 1. Architecture Overview
 
-![Overview](C:\About_School\1_DL\CFCM_Net\投稿\github\Overview.png)
+![Overview](Overview.png)
 
 ***CFCM Net adopts a dual-encoder-single-decoder architecture based on bimodal feature fusion. On the encoding side, the Chromaticity Mapping Transformation (CMT) is used to map and analyze feature maps in different color spaces, enhancing their informational characteristics. At deeper layers, Gaussian filter convolutions are applied to integrate anti-aliasing filtering with an attention mechanism, reducing aliasing at higher semantic levels and ensuring the richness of image information.***
 
