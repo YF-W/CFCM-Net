@@ -30,7 +30,7 @@ paper address:https://github.com/YF-W/CFCM-Net
 
 ### 4.Module 2：CMT
 
-![CFCM Net_module2](https://github.com/YF-W/CFCM-Net/edit/main/CFCM Net_module2.png)
+![CFCM Net_module2](CFCM Net_module2.png)
 
 ***CMT utilizes chromatic mapping transformation to perform mode mapping in the chromatic space on the input feature maps. By fusing the mode features across different chromatic dimensions, it captures deeper information within the feature maps. This mapping transformation amplifies hidden details within the original format, compensating for potential losses of local features during global feature extraction. Furthermore, it enhances the differentiation in information extraction between dual encodings, enabling a deeper and more comprehensive focus on feature information.***
 
