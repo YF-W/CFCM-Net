@@ -16,13 +16,13 @@ paper address:https://github.com/YF-W/CFCM-Net
 
 ### 2. Our Baseline
 
-![CFCM Net_Baseline](CFCM Net_Baseline.png)
+![CFCM Net_Baseline](https://github.com/YF-W/CFCM-Net/edit/main/CFCM Net_Baseline.png)
 
 ***The Baseline utilizes a dual-encoder-single-decoder architecture, which combines misaligned cross-downsampling, ViT, and CNN to facilitate the joint extraction and fusion of global and local features. A key component, the BCF module, is placed at the skip connection to promote effective cross-stream fusion, ensuring that image information is preserved while fully integrating features from both the skip connection and the dual encoders. In the BCF module, the input feature maps from the dual encoders are split along the center line, with symmetric padding added to fill any missing areas. Global average pooling and global max pooling are then applied to compute weights, which are subsequently used to adjust the feature maps. These maps are folded, restored, and concatenated, before being passed to both the original encoding layer and the skip connection for further processing.***
 
 ### 3.Module 1:LFFP
 
-![CFCM Net_module1](CFCM Net_module1.png)
+![CFCM Net_module1](https://github.com/YF-W/CFCM-Net/edit/main/CFCM Net_module1.png)
 
 ***The LFFP module employs Gaussian anti-aliasing filtering to eliminate high-frequency information from the feature map of the last skip connection, retaining low-frequency global information to mitigate the impact of high-frequency noise. Next, a 2×2 convolution kernel is applied to reduce the image dimensions, and the downsized feature map is concatenated with the bottleneck feature map to enhance feature representation. Subsequently, the concatenated feature map undergoes bifurcation and convolutional processing to extract information, with the split features merged through summation to further enrich the information content. Additionally, global average pooling and global max pooling are utilized for weight allocation, assigning distinct weights to different feature maps to optimize feature distribution. Finally, absolute value subtraction, feature fusion via addition, attention mechanisms, and residual connections are applied, enhancing the information richness at the bottleneck while emphasizing global information.***
 
@@ -30,7 +30,7 @@ paper address:https://github.com/YF-W/CFCM-Net
 
 ### 4.Module 2：CMT
 
-![CFCM Net_module2](CFCM Net_module2.png)
+![CFCM Net_module2](https://github.com/YF-W/CFCM-Net/edit/main/CFCM Net_module2.png)
 
 ***CMT utilizes chromatic mapping transformation to perform mode mapping in the chromatic space on the input feature maps. By fusing the mode features across different chromatic dimensions, it captures deeper information within the feature maps. This mapping transformation amplifies hidden details within the original format, compensating for potential losses of local features during global feature extraction. Furthermore, it enhances the differentiation in information extraction between dual encodings, enabling a deeper and more comprehensive focus on feature information.***
 
