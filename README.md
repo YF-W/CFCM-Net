@@ -1,6 +1,6 @@
-# A medical image segmentation model based on cross-modal flow fusion
+# A [IF'2025] Medical Image Semantic Segmentation Method Based on Multi-Color Space Information Fusion Strategy
 
-paper address:https://github.com/YF-W/CFCM-Net
+paper address: https://doi.org/10.1016/j.inffus.2025.103861
 
 ***Semantic segmentation technology enables automated analysis of medical images by accurately segmenting lesion areas, driving the development of precision medicine and becoming a key tool in the field of medical imaging. However, its widespread application remains limited by challenges such as differences in medical imaging modalities and insufficient model generalization capability. CFCM Net integrates the feature extraction strengths of Traditional Convolution and ViT through the BCF and employs CMT to achieve mode separation and information differentiation of feature maps. Additionally, the LFFP is designed in the bottleneck to enhance the model's anti-aliasing and noise-resistance capabilities, as well as its focus on deep semantic information.***
 
@@ -46,6 +46,7 @@ paper address:https://github.com/YF-W/CFCM-Net
 6. Breast Ultrasound Images Dataset (BREAST):https://scholar.cu.edu.eg/?q=afahmy/pages/dataset
 7. The Automated Cardiac Diagnosis Challenge (ACDC):https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html
 8. The Synapse dataset contains multi-type:https://github.com/Beckschen/TransUNet
+
 
 
 
