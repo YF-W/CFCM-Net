@@ -1,4 +1,4 @@
-# A [IF'2025] Medical Image Semantic Segmentation Method Based on Multi-Color Space Information Fusion Strategy
+# [IF'2025] A Medical Image Semantic Segmentation Method Based on Multi-Color Space Information Fusion Strategy
 
 paper address: https://doi.org/10.1016/j.inffus.2025.103861
 
@@ -46,6 +46,7 @@ paper address: https://doi.org/10.1016/j.inffus.2025.103861
 6. Breast Ultrasound Images Dataset (BREAST):https://scholar.cu.edu.eg/?q=afahmy/pages/dataset
 7. The Automated Cardiac Diagnosis Challenge (ACDC):https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html
 8. The Synapse dataset contains multi-type:https://github.com/Beckschen/TransUNet
+
 
 
 
